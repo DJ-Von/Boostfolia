@@ -60,6 +60,10 @@
         width: inherit;
     }
 
+    .video .image{
+        width: 600px;
+    }
+
     .video .image video{
         width: 600px;
         height: inherit;
