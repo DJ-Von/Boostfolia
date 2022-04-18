@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/slider.css">
+	<link rel="stylesheet" type="text/css" href="styles/adaptive.css">
+	<link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
+	<title>Boostfolia</title>
+</head>
+<body>
+	<!--Header-->
+	<header class="header">
+		<div class="container">
+			<div class="logo">
+				<a href="#">
+					<img src="img/logo.png" alt="Boostfolia">
+				</a>
+				<div><a href="#"><p>BOOSTFOLIA</p></a></div>
+			</div>
+			<div class="button_container" id="toggle">
+				<span class="top"></span>
+				<span class="middle"></span>
+				<span class="bottom"></span>
+			</div>
+			<script>
+				$('#toggle').click(function() {
+						$(this).toggleClass('active menu_thing');
+						$('#overlay').toggleClass('open');
+					});
+			</script>
+			<div class="overlay" id="overlay">
+				<nav class="overlay-menu">
+				  <ul>
+					<li><a href="#banner">Home</a></li>
+					<li><a href="#about-us">About Us</a></li>
+					<li><a href="#video">Behind The Scene</a></li>
+					<li><a href="#our-works">Our works</a></li>
+					<li><a href="#who-we-are">Who we are</a></li>
+					<li><a href="#some-features">Features</a></li>
+					<li><a href="#blog-posts">Blog</a></li>
+					<li><a href="#chose-plan">Chose plan</a></li>
+					<li><a href="#get-in-touch">Contact</a></li>
+					<li><a href="#location">Location</a></li>
+				  </ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<!--Banner-->
+	<section class="banner" id="banner">
+		<div class="container">
+			<h1>WE THINK CREATIVE BE CREATIVE</h1>
+			<h2>LIKE TO DO CREATIVE WORKS</h2>
+			<img src="img/mouse.png">
+			<h3>SCROLL DOWN</h3>
+		</div>
+	</section>
+
+	<!--About Us-->
+	<section class="about-us" id="about-us">
+		<div class="container">
+			<div class="title">
+				<h2>ABOUT US</h2>
+				<hr noshade>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			</div>
+			<div class="sections">
+				<div class="one-section">
+					<span><img src="img/about-1.png"></span>
+					<h3>CREATIVE DESIGN</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...</p>
+				</div>
+
+				<div class="one-section">
+					<span><img src="img/about-2.png"></span>
+					<h3>UNIQU PORTFOLIO</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...</p>
+				</div>
+
+				<div class="one-section">
+					<span><img src="img/about-3.png"></span>
+					<h3>INFNITE UPDATES</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Video-->
+	<section class="video" id="video">
+		<div class="container">
+			<div class="info">
+				<h1>WATCH BEHIND THE SCENE</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+				<audio src="audio/Ola Gjeilo - Gjeilo_ Nocturnal.mp3"></audio>
+				<a href="#">PLAY NOW</a>
+			</div>
+	
+			<div class="image">
+				<video src="video/Microsoft's 2021 Surface event in 10 minutes.mp4" controls width="683px" height="430px" poster="img/video.png"></video>
+			</div>
+		</div>
+	</section>
+	
+
+	<!--Our Works-->
+	<section class="our-works" id="our-works">
+		<div class="container">
+			<div class="title">
+				<h2>OUR WORKS</h2>
+				<hr noshade="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			</div>
+			<ul>
+				<li>ALL PROJECTS</li>
+				<li>PHOTOGRAPHY</li>
+				<li>WEB DESIGN</li>
+				<li>BRANDING</li>
+				<li>MOBILE APP</li>
+			</ul>
+		</div>
+	</section>
+
+	<!--Works-->
+	<section class="works">
+		<table>
+			<tr>
+			  <td></td>
+			  <td></td>
+			  <td></td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</section>
+	
+	<!--Slider-->
+	<section class="slider">
+		<div class="container">
+			<div class="page">
+				<img src="img/slider-1.png" alt="">
+				<img src="img/slider-2.png" alt="">
+				<img src="img/slider-3.png" alt="">
+			</div>
+		</div>
+	</section>
+
+	<!--Who we are-->
+	<section class="who-we-are" id="who-we-are">
+		<div class="container">
+			<div class="title">
+				<h2>WHO WE ARE</h2>
+				<hr noshade="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			</div>
+			<div class="summary">
+				<div class="name">
+					
+					<div class="text">
+						<div class="wrapper">
+							<input type="radio" name="point" id="slide1" checked>
+							<input type="radio" name="point" id="slide2">
+							<input type="radio" name="point" id="slide3">
+							<div class="slider-2">
+								<div class="slides slide1"></div>
+								<div class="slides slide2"></div>
+								<div class="slides slide3"></div>
+							</div>	
+							<div class="controls">
+								<label for="slide1"></label>
+								<label for="slide2"></label>
+								<label for="slide3"></label>
+							</div>
+						</div>
+						<h2>JANE SMITH</h2>
+						<h3>DESIGNER</h3>
+					</div>
+					<div class="social-networks">
+						<a href="https://ru.linkedin.com/"><img src="img/summary-1.png" alt=""></a>
+						<a href="https://twitter.com/"><img src="img/summary-2.png" alt=""></a>
+						<a href="https://ru-ru.facebook.com/"><img src="img/summary-3.png" alt=""></a>
+					</div>
+					<div class="slider">
+						
+					</div>
+				</div>
+				<div class="skills">
+					<div class="skills-content">
+						<h2>MY SKILLS</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+						<img src="img/stat.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Some features-->
+	<section class="some-features" id="some-features">
+		<div class="container">
+			<div class="title">
+				<h2>SOME FEATURES</h2>
+				<hr noshade="">
+			</div>
+			<div class="sections">
+				<div class="one-section">
+					<img src="img/features-1.png">
+					<p>Shortcodes</p>
+					<h3>46</h3>
+				</div>
+
+				<div class="one-section">
+					<img src="img/features-2.png">
+					<p>Integrated plugins</p>
+					<h3>128</h3>
+				</div>
+
+				<div class="one-section">
+					<img src="img/features-3.png">
+					<p>Creative products</p>
+					<h3>450</h3>
+				</div>
+
+				<div class="one-section">
+					<img src="img/features-4.png">
+					<p>Clients worldwide</p>
+					<h3>100+</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Blog posts-->
+	<section class="blog-posts" id="blog-posts">
+		<div class="container">
+			<div class="title">
+				<h2>BLOG POSTS</h2>
+				<hr noshade="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+			</div>
+			<div class="sections">
+				<div class="one-section">
+					<img src="img/blog-1.png">
+					<div class="article">
+						<div class="content">
+							<h3>Create Creative and Clean</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="one-section">
+					<img src="img/blog-2.png">
+					<div class="article">
+						<div class="content">
+							<h3>Create Creative and Clean</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="one-section">
+					<img src="img/blog-3.png">
+					<div class="article">
+						<div class="content">
+							<h3>Create Creative and Clean</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Chose plan-->
+	<section class="chose-plan" id="chose-plan">
+		<div class="container">
+			<div class="title">
+				<h2>CHOSE PLAN</h2>
+				<hr noshade="">
+			</div>
+			<div class="sections">
+				<div class="one-section">
+					<div class="plan-header">
+						<h3>Basic</h3>
+						<h2>Free</h2>
+					</div>
+					<div class="plan-content">
+						<ul>
+							<li><span>20</span> Pages</li>
+							<li><span>2</span> GB Storage</li>
+							<li><span>150</span> Members</li>
+							<li><span>2</span> Contributors</li>
+						</ul>
+						<a href="#">PURCHASE</a>
+					</div>
+				</div>
+
+				<div class="one-section">
+					<div class="plan-header">
+						<h3>Standart</h3>
+						<h2>$24.00</h2>
+					</div>
+					<div class="plan-content">
+						<ul>
+							<li><span>20</span> Pages</li>
+							<li><span>2</span> GB Storage</li>
+							<li><span>300</span> Members</li>
+							<li><span>5</span> Contributors</li>
+						</ul>
+						<a href="#">PURCHASE</a>
+					</div>
+				</div>
+
+				<div class="one-section">
+					<div class="plan-header">
+						<h3>Premium</h3>
+						<h2>$40.00</h2>
+					</div>
+					<div class="plan-content">
+						<ul>
+							<li><span>30</span> Pages</li>
+							<li><span>20</span> GB Storage</li>
+							<li><span>500</span> Members</li>
+							<li><span>10</span> Contributors</li>
+						</ul>
+						<a href="#">PURCHASE</a>
+					</div>
+				</div>
+
+				<div class="one-section">
+					<div class="plan-header">
+						<h3>Professional</h3>
+						<h2>$75.00</h2>
+					</div>
+					<div class="plan-content">
+						<ul>
+							<li><span>40</span> Pages</li>
+							<li><span>40</span> GB Storage</li>
+							<li><span>1000</span> Members</li>
+							<li><span>20</span> Contributors</li>
+						</ul>
+						<a href="#">PURCHASE</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!--Get in touch-->
+	<section class="get-in-touch" id="get-in-touch">
+		<div class="container">
+			<div class="title">
+				<h2>GET IN TOUCH</h2>
+				<hr noshade="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+			</div>
+			<div class="message-form">
+				<form action="#">
+					<div class="sender-data">
+						<div class="sender-data-block">
+							<label>NAME <span>*</span></label>
+							<input type="text" name="name">
+						</div>
+						<div class="sender-data-block">
+							<label>MAIL <span>*</span></label>
+							<input type="text" name="mail">
+						</div>
+					</div>
+					<label>MESSAGE <span>*</span></label>
+					<textarea></textarea>
+					<input type="submit" name="send" value="SEND MESSAGE" class="button">
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<!--Locate on map-->
+	<section class="location" id="location">
+		<div class="container">
+			<p>LOCATE ON MAP <img src="img/arrow-2.png" alt="" class="arrow"></p>
+		</div>
+	</section>
+
+	<!--Map-->
+	<section class="map container" id="map">
+			<script>
+				$('.location').click(function() {
+						$('.map').toggleClass('map_active');
+						$('.arrow').toggleClass('arrow_rotate');
+					});
+			</script>
+			<div style="position:relative;">
+				<a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a>
+				<a href="https://yandex.ru/maps/2/saint-petersburg/house/primorskiy_prospekt_63/Z0kYdABgSUYBQFtjfXV5cn1hYg==/?ll=30.270036%2C59.983126&utm_medium=mapframe&utm_source=maps&z=17.02" style="color:#eee;font-size:12px;position:absolute;top:14px;">Приморский проспект, 63 — Яндекс Карты</a>
+				<iframe src="https://yandex.ru/map-widget/v1/-/CCUFQBhVkB" width="100%" height="600px" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+			</div>
+	</section>
+
+	<!--Footer-->
+	<footer>
+		<div class="container">
+			<div><img src="img/logo.png"></div>
+			<div>
+				<h2>BOOSTFOLIA</h2>
+				<p>MADE WITH LOVE BY CREATIVE PRODUCTS</p>
+				<div class="social-networks">
+					<a href="https://ru.linkedin.com/"><img src="img/sn-1.png" alt=""></a>
+						<a href="https://twitter.com/"><img src="img/sn-2.png" alt=""></a>
+						<a href="https://ru-ru.facebook.com/"><img src="img/sn-3.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
