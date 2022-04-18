@@ -58,6 +58,12 @@
         height: inherit;
     }
 
+    .video audio{
+        padding-bottom: 20px;
+        width: 50%;
+        margin: 0 auto;
+    }
+
     /* Our works */
     .our-works p{
         width: 400px;
@@ -103,13 +109,31 @@
         width: 400px;
     }
 
+    .who-we-are .container{
+        width: inherit;
+        height: inherit;
+    }
+
     .summary{
         display: flex;
         justify-content: space-between;
-        height: 435px;
-        width: 1004px;
+        flex-wrap: wrap;
+        height: inherit;
+        width: inherit;
         margin: 0 auto;
         margin-top: 90px;
+    }
+
+    .summary .name{
+        width: 100%;
+    }
+
+    .skills{
+        padding-bottom: 80px;
+    }
+
+    .skills .skills-content p{
+        width: 100%;
     }
 
     /* Some features */
