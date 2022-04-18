@@ -61,7 +61,7 @@
     }
 
     .video .image{
-        width: 600px;
+        width: inherit;
     }
 
     .video .image video{
