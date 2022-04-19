@@ -3,6 +3,10 @@
         width: inherit;
     }
 
+    .title p{
+        width: inherit;
+    }
+
     .header .logo{
         margin-left: 50px;
     }
@@ -23,10 +27,6 @@
 
     .about-us .one-section, .blog-posts .one-section, .chose-plan .one-section{
         margin-top: 20px;
-    }
-
-    .our-works p{
-        width: inherit;
     }
 
     .our-works ul{
@@ -90,7 +90,8 @@
         height: inherit;
     }
 
-    
+    table{
+        display: none;
+    }
 }
 
-@media screen and (max-width: 428px){}
