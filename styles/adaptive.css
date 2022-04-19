@@ -96,6 +96,8 @@
 
     .get-in-touch .message-form form{
         width: inherit;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .sender-data{
@@ -119,6 +121,8 @@
 
     .get-in-touch .message-form form{
         width: inherit;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .sender-data{
