@@ -1,233 +1,70 @@
-@media screen and (max-width: 600px){
-    .body{
-        width: 600px;
-    }
-
+@media screen and (max-width: 769px){
     .container{
-        width: 600px;
-    }
-    /* Header */
-    .button_container{
-        left: 85vw;
-    }
-
-    .overlay ul li a{
-        font-size: 24px;
         width: inherit;
     }
 
-    /* Banner */
-    .banner h1{
-        text-align: center;
-    }
-
-
-
-    /* About us */
-    .about-us .container {
+    .about-us > .container{
         height: inherit;
     }
 
     .about-us .sections{
         width: inherit;
-        margin: 0 auto;
-        padding-top: 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 30px;
-    }
-
-    .about-us .one-section{
         padding-top: 0;
-        margin-top: 30px;
-    }
-
-    .about-us .one-section img{
-        padding-top: 30px;
-    }
-
-    /* Video */
-    .video .container{
-        display: flex;
-        flex-direction: column;
-        height: inherit;
-        width: inherit;
-    }
-
-    .info{
-        width: inherit;
-    }
-
-    .video .image{
-        width: inherit!important;
-    }
-
-    .video .image video{
-        width: 600px;
-        height: inherit;
-    }
-
-    .video audio{
         padding-bottom: 20px;
-        width: 50%;
-        margin: 0 auto;
     }
 
-    /* Our works */
-    .our-works p{
-        width: 400px;
+    .about-us .one-section, .blog-posts .one-section, .chose-plan .one-section{
+        margin-top: 20px;
     }
 
-    .our-works ul{
-        padding-top: 30px;
-        width: inherit;
-    }
-    /* Works */
-    table{
-        width: 600px;
-        margin: 0 auto;
-    }
-    
-    table tr{
-        height: 200px;
-        background-color: #e84c3d;
-        vertical-align: top;
-    }
-
-    /* Slider */
-    .slider .page{
-        display: flex;
-        margin: 0 auto;
-        justify-content:space-around;
-        padding-top: 110px;
-        width: 90%;
-    }
-
-    .slider .page img{
-        width: 150px;
-    }
-
-    /* Who we are */
-    .who-we-are .title p{
-        color: #696969;
-        font-family:'Roboto', sans-serif;
-        font-weight: 300;
-        text-align: center;
-        font-size: 16px;
-        margin: 0 auto;
-        width: 400px;
-    }
-
-    .who-we-are .container{
-        width: inherit;
-        height: inherit;
-    }
-
-    .summary{
-        display: flex;
-        justify-content: space-between;
+    .video .container{
         flex-wrap: wrap;
-        height: inherit;
-        width: inherit;
-        margin: 0 auto;
-        margin-top: 90px;
     }
 
-    .summary .name{
+    .video .image, .video video, .video .info{
         width: 100%;
+        height: 100%;
     }
 
-    .skills{
-        padding-bottom: 80px;
-    }
-
-    .skills .skills-content p{
-        width: 100%;
-        padding: 15px;
-    }
-
-    /* Some features */
-    .some-features .container{
+    .some-features .container, .blog-posts .container, .video .container, .chose-plan .container, .who-we-are .container, .who-we-are .summary{
         height: inherit;
     }
 
-    .some-features .sections{
+    .some-features .sections, .blog-posts .sections, .chose-plan .sections, .who-we-are .summary{
         width: inherit;
-        margin: 0 auto;
         padding-top: 0;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-
-    /* Blog posts */
-    .blog-posts .container{
-        height: inherit;
     }
 
     .blog-posts .sections{
-        width: inherit;
-        padding-bottom: 60px;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .blog-posts .one-section{
-        margin-top: 15px;
-    }
-    /* Chose plan */
-    .chose-plan .container{
-        height: inherit;
-        background-color: #0a191e;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
     }
 
     .chose-plan .sections{
-        width: inherit;
-        margin: 0 auto;
-        padding-top: 0;
-        padding-top: 30px;
-        padding-bottom: 60px;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
+        padding-bottom: 20px;
     }
 
-    .chose-plan .one-section{
-        margin-top: 30px;
-    }
-
-    /* Get in touch */
-    .get-in-touch .message-form form{
-        margin: 0 auto;
+    .slider img{
         width: 50%;
-        height: 415px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding-top: 100px;
-        font-family: 'Roboto', sans-serif;
     }
 
-    .get-in-touch form textarea{
+    .summary .name, .summary .skills{
         width: 100%;
     }
 
-    .get-in-touch .sender-data{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .get-in-touch .sender-data .sender-data-block{
-        justify-content: space-around;
-    }
-
-    .get-in-touch .sender-data input{
+    .summary .skills p{
+        margin: 0;
         width: inherit;
-        height: 25px;
-        border: none;
-        border-bottom: 1px solid #d7c8ad;
+        padding: 15px 0;
     }
+
+    .summary .skills-content{
+        padding-bottom: 40px;
+        height: inherit;
+    }
+
+    
 }
+
+@media screen and (max-width: 428px){}
