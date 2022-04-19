@@ -378,6 +378,11 @@ input, textarea{
 .image{
 	width: 685px;
 }
+
+.image video{
+	height: 100%;
+	width: 100%;
+}
 /*Our works*/
 .our-works .title{
 	padding-top: 70px;
