@@ -101,6 +101,10 @@
     .sender-data{
         flex-wrap: wrap;
     }
+
+    .get-in-touch .sender-data input{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 428px){
@@ -119,5 +123,9 @@
 
     .sender-data{
         flex-wrap: wrap;
+    }
+
+    .get-in-touch .sender-data input{
+        width: 100%;
     }
 }
