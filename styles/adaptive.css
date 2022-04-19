@@ -90,25 +90,12 @@
         height: inherit;
     }
 
-    table{
-        display: none;
-        overflow: hidden;
-    }
-
-    .get-in-touch{
-        display: none;
-        overflow: hidden;
-    }
+    
 }
 
 @media screen and (max-width: 428px){
-    table{
-        display: none;
-        overflow:hidden;
-    }
-
-    .get-in-touch{
-        display: none;
-        overflow: hidden;
+    
+    .overlay ul li a{
+        font-size: 24px;
     }
 }
