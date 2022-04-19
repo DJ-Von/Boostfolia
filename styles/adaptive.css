@@ -112,4 +112,12 @@
     table{
         width: 100%!important;
     }
+
+    .get-in-touch .message-form form{
+        width: inherit;
+    }
+
+    .sender-data{
+        flex-wrap: wrap;
+    }
 }
