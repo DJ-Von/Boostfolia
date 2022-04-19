@@ -93,6 +93,10 @@
     table{
         display: none;
     }
+
+    .get-in-touch{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 428px){
@@ -100,8 +104,7 @@
         display: none;
     }
 
-
-    .get-in-touch .container{
+    .get-in-touch{
         display: none;
     }
 }
