@@ -3,6 +3,14 @@
         width: inherit;
     }
 
+    .header .logo{
+        margin-left: 50px;
+    }
+
+    .banner h1{
+        font-size: 56px;
+    }
+
     .about-us > .container{
         height: inherit;
     }
@@ -17,8 +25,26 @@
         margin-top: 20px;
     }
 
+    .our-works p{
+        width: inherit;
+    }
+
+    .our-works ul{
+        flex-direction: column;
+        width: inherit;
+        padding-top: 30px;
+    }
+
+    .our-works ul li{
+        padding-top: 5px;
+    }
+
     .video .container{
         flex-wrap: wrap;
+    }
+
+    .video p{
+        width: 60%;
     }
 
     .video .image, .video video, .video .info{
