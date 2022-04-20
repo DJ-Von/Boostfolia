@@ -61,6 +61,10 @@
         padding-top: 0;
     }
 
+    .some-features .one-section{
+        padding-top: 30px;
+    }
+
     .blog-posts .sections{
         flex-direction: column;
         align-items: center;
@@ -131,5 +135,9 @@
 
     .get-in-touch .sender-data input{
         width: 100%;
+    }
+
+    .some-features .one-section{
+        padding-top: 30px;
     }
 }

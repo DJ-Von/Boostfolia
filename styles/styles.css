@@ -583,35 +583,33 @@ table tr{
 }
 
 .some-features .sections{
-	
 	margin: 0 auto;
 	padding-top: 60px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
+	width: 70%;
 }
 
 .some-features .one-section{
-	width: 320px;
+	width: 200px;
 	text-align: center;
 	background-color: #0a191e;
-	padding-top: 30px;
+	color: #fff;
 }
 
 
 .some-features .one-section h3{
-	font-size: 18px;
+	font-size: 36px;
 	font-family:'Roboto', sans-serif;
-	font-weight: bold;
-	color: #707070;
+	font-weight: 100;
 	margin-bottom: 10px;
 }
 
 .some-features .one-section p{
-	font-size: 14px;
+	font-size: 16px;
 	font-family:'Roboto', sans-serif;
-	font-weight: 300;
-	color: #988c8c;
+	font-weight: 100;
 	margin: 0 auto;
 	width: 80%;
 }
@@ -677,6 +675,30 @@ table tr{
 	color: #988c8c;
 	margin: 0 auto;
 
+}
+
+.blog-posts .article-info{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+	transform: translateY(60px);
+	font-family: 'Roboto', sans-serif;
+}
+
+.blog-posts .article-info span{
+	font-size: 12px;
+}
+
+.blog-posts .article-info .date, .blog-posts .article-info .date{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+}
+
+.blog-posts .article-info img{
+	width: auto;
 }
 
 /*Chose plan*/
